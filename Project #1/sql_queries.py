@@ -57,7 +57,7 @@ songplay_table_insert = ("""
 
 user_table_insert = ("""
         insert into users (user_id, first_name, last_name, gender, level)
-    values(%s,%s,%s,%s,%s) ON CONFLICT DO NOTHING;
+    values(%s,%s,%s,%s,%s) ON CONFLICT(user_id) DO UPDATE SET level = excluded.level;
 """)
 
 song_table_insert = ("""
