@@ -26,4 +26,5 @@ To start seeing the results, go ahead and run create_tables.py script. This will
 To run the everything all at once, all you have to do is to run the etl.py script via terminal. This will pull the all of the data within the data folder and parse the data to be inserted into the tables that has been created earlier using create_tables.py. If you'd like to understand the process of how the ETL work, you may do the 1-step-at-a-time by using the etl.ipynb or the etl version via Python Notebook. Additionally you can also check etl.py docstrings to understand the necessary steps that I've used to finish this ETL.
 
 Thanks for checking it out!
+
 *Dan Agustinus*
