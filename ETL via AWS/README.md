@@ -4,9 +4,9 @@
 Thank you for spending the time to take a look at the README.md file!
 
 #### This readme file will go through:
-1. the files within this projects
-2. the available Python scripts
-3. how to run the scripts
+1. The files within this projects
+2. The available Python scripts
+3. How to run the scripts
 4. Overview of the "AWS ETL Rundown.ipynb file"
     
 This project is based on the Udacity Data Engineering course and it teaches the student to perform an ETL within AWS and automating it by using Python.
