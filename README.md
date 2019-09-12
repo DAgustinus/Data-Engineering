@@ -1,6 +1,6 @@
 # Welcome to my Data Engineer Showcase!
 
-Hi! I'm **Dan Agustinus**. I'm very passionate in the field of Data Engineering and I have a strong interest in it.
+Hi! I'm **Dan A. Pesiwarissa**. I'm very passionate in the field of Data Engineering and I have a strong interest in it.
 
 
 ## What is this Repo about?
