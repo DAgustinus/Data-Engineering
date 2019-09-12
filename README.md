@@ -13,6 +13,7 @@ Each folders have an **etl.py** as well as **create_tables.py** automation file 
 
 - [Cassandra ETL](https://github.com/DAgustinus/udacity_de/blob/master/ETL%20Process%20-%20Cassandra/etl.py)
 - [PostgreSQL ETL](https://github.com/DAgustinus/udacity_de/tree/master/ETL%20Process%20-%20Postgres)
+- [ETL Automation within AWS](https://github.com/DAgustinus/Data-Engineering/tree/master/ETL%20via%20AWS)
 
 ## Contact information:
 
