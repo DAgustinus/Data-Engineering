@@ -59,7 +59,7 @@ clean_df.printSchema()
 #### Output from clean_df.printSchema()
 # root
 # |-- host: string (nullable = true)
-#  |-- client_identd: string (nullable = true)
-#  |-- user_id: string (nullable = true)
-#  |-- date_time: string (nullable = true)              <<< Old data
-#  |-- utc_time: timestamp (nullable = true)            <<< The new TIMESTAMP column
+# |-- client_identd: string (nullable = true)
+# |-- user_id: string (nullable = true)
+# |-- date_time: string (nullable = true)              <<< Old data
+# |-- utc_time: timestamp (nullable = true)            <<< The new TIMESTAMP column
