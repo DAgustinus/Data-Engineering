@@ -1,3 +1,7 @@
+"""
+    Example of the DAG diagram - https://tinyurl.com/y42fogpf
+"""
+
 import datetime
 
 from airflow import DAG
