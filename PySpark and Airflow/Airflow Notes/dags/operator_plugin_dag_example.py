@@ -1,6 +1,11 @@
-# Example of DAG piggy backing on custom operator to load data from s3 to Redshift and
-#  add perform checking 
-# TODO: see operator within plugins folder 
+"""
+    Example of DAG piggy backing on custom operator to load data from s3 to Redshift and add perform checking 
+    TODO: see operator within plugins folder 
+
+    Variables:
+        redshift: This is the redshift connection that has been created within Connections in Airflow - https://tinyurl.com/y4eyle3c
+        aws_credentials: This is the AWS credential information that has been created within Connections in Airflow - https://tinyurl.com/yyglbbub
+"""
 
 import datetime
 import logging
@@ -45,9 +50,6 @@ copy_trips_task = S3ToRedshiftOperator(
     s3_key="data-pipelines/divvy/partitioned/{execution_date.year}/{execution_date.month}/divvy_trips.csv"
 )
 
-#
-# TODO: Replace this data quality check with the HasRowsOperator
-#
 check_trips = HasRowsOperator(
     task_id='check_trips_data',
     dag=dag,
