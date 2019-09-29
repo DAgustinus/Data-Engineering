@@ -1,0 +1,59 @@
+staging_events|artist|VARCHAR|NULL
+staging_events|auth|VARCHAR|NULL
+staging_events|firstName|VARCHAR|NULL
+staging_events|gender|VARCHAR|NULL
+staging_events|itemInSession|INTEGER|NULL
+staging_events|lastName|VARCHAR|NULL
+staging_events|length|DECIMAL|NULL
+staging_events|level|VARCHAR|NULL
+staging_events|location|VARCHAR|NULL
+staging_events|method|VARCHAR|NULL
+staging_events|page|VARCHAR|NULL
+staging_events|registration|DECIMAL|NULL
+staging_events|sessionId|VARCHAR|NULL
+staging_events|song|VARCHAR|NULL
+staging_events|status|INTEGER|NULL
+staging_events|ts|BIGINT|NULL
+staging_events|userAgent|TEXT|NULL
+staging_events|userId|INTEGER|NULL
+staging_songs|song_id|VARCHAR|NULL
+staging_songs|num_songs|VARCHAR|NULL
+staging_songs|title|VARCHAR|NULL
+staging_songs|artist_name|VARCHAR|NULL
+staging_songs|artist_latitude|DECIMAL|NULL
+staging_songs|year|INTEGER|NULL
+staging_songs|duration|DECIMAL|NULL
+staging_songs|artist_id|VARCHAR|NULL
+staging_songs|artist_longitude|DECIMAL|NULL
+staging_songs|artist_location|VARCHAR|NULL
+songplays|songplay_id|VARCHAR|NULL|SORTKEY|UNIQUE
+songplays|start_time|TIMESTAMP|NULL
+songplays|user_id|INTEGER|DISTKEY|NULL
+songplays|level|VARCHAR|NULL
+songplays|song_id|VARCHAR|NULL
+songplays|artist_id|VARCHAR|NULL
+songplays|session_id|VARCHAR|NULL
+songplays|location|VARCHAR|NULL
+songplays|user_agent|VARCHAR|NULL
+artists|artist_id|VARCHAR|NOT NULL|SORTKEY|UNIQUE
+artists|name|VARCHAR
+artists|location|VARCHAR
+artists|latitude|DECIMAL
+artists|longitude|DECIMAL
+songs|song_id|VARCHAR|NOT NULL|SORTKEY|UNIQUE
+songs|title|VARCHAR
+songs|artist_id|VARCHAR
+songs|year|INTEGER
+songs|duration|DECIMAL
+users|user_id|INT|NOT NULL|SORTKEY|UNIQUE
+users|first_name|VARCHAR
+users|last_name|VARCHAR
+users|gender|VARCHAR
+users|level|VARCHAR
+time|start_time|TIMESTAMP|NOT NULL|SORTKEY|UNIQUE
+time|hour|INTEGER|NOT NULL
+time|day|INTEGER|NOT NULL
+time|week|INTEGER|NOT NULL
+time|month|INTEGER|NOT NULL
+time|year|INTEGER|NOT NULL
+time|dayofweek|INTEGER|NOT NULL
