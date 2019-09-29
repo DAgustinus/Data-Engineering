@@ -13,6 +13,9 @@ Three main folders:
 2. [data_config](https://github.com/DAgustinus/Data-Engineering/blob/master/Data%20Pipeline%20-%20Airflow/data_config/sql_config.txt) - this folder consists of an easy sql_config.txt file which determines how the tables are supposedly created
 3. plugins - this folder holds all of the operators and helpers which help set the pipeline
 
+## The pipeline DAG
+![pipeline](https://github.com/DAgustinus/Data-Engineering/blob/master/Data%20Pipeline%20-%20Airflow/illustrations-non-codes/pipeline_dag.JPG?raw=true)
+
 ## Contact information:
 
 - [LinkedIn](https://www.linkedin.com/in/dagustinus/)
