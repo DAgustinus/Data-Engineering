@@ -15,6 +15,7 @@ Each folders have an **etl.py** as well as **create_tables.py** automation file 
 - [PostgreSQL ETL](https://github.com/DAgustinus/udacity_de/tree/master/ETL%20Process%20-%20Postgres)
 - [ETL Automation within AWS](https://github.com/DAgustinus/Data-Engineering/tree/master/ETL%20via%20AWS)
 - [ETL Data Lake using Spark](https://github.com/DAgustinus/Data-Engineering/tree/master/ETL%20via%20Spark)
+- [Data Pipeline - Airflow](https://github.com/DAgustinus/Data-Engineering/tree/master/Data%20Pipeline%20-%20Airflow)
 
 ## Contact information:
 
